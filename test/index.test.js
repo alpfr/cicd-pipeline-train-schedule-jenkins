@@ -2,6 +2,8 @@ var request = require('supertest');
 var express = require('express');
  
 var app = require('../app');
+
+print console.log('This is a test');
  
 describe('Index Page', function() {
   it("renders successfully", function(done) {
